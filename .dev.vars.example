@@ -1,0 +1,6 @@
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_WEBHOOK_SECRET=
+OWNER_IDS=123456789
+ADMIN_IDS=123456789,987654321
+ALLOWED_CHAT_IDS=-1001234567890
+FEATURE_FLAGS=panel,content,community,support,buttons,automation,schedule,broadcast,approvals,knowledge,tasks,polls

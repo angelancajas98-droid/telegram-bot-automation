@@ -1,0 +1,27 @@
+name = "telegram-bot-automation"
+main = "src/index.ts"
+compatibility_date = "2026-08-17"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+DEFAULT_LANGUAGE = "en"
+RATE_LIMIT_PER_MINUTE = "30"
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "a772f2c01c364aab8b1c477be3f8eae1"
+preview_id = "REPLACE_WITH_PREVIEW_KV_ID"
+
+[triggers]
+crons = ["* * * * *"]
+
+[env.staging]
+name = "teammarysy-bot-staging"
+[env.staging.vars]
+ENVIRONMENT = "staging"
+DEFAULT_LANGUAGE = "en"
+RATE_LIMIT_PER_MINUTE = "60"
+[[env.staging.kv_namespaces]]
+binding = "STATE"
+id = "REPLACE_WITH_STAGING_KV_ID"
