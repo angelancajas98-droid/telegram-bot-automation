@@ -24,4 +24,4 @@ DEFAULT_LANGUAGE = "en"
 RATE_LIMIT_PER_MINUTE = "60"
 [[env.staging.kv_namespaces]]
 binding = "STATE"
-id = "REPLACE_WITH_STAGING_KV_ID"
+id = "f9ad6f52c62a43e49ffea5de61a12f94"
